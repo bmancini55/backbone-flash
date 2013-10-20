@@ -3,7 +3,7 @@ backbone-flash
 
 Creates a flash notification feature for backbone. This feature is built on the Backbone event system and is extensible for custom display and delivery. By default it will use an underscore template and Bootstrap styling for alert messages.
 
-##Intiialization
+##Intialization
 Upon application start-up you must call `initialize` to enable flash messaging. This will use the default configuration which attaches flash messages to the HTML body element and will use underscore templating.
 
 ```javascript
