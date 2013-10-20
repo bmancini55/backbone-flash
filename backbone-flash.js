@@ -3,7 +3,7 @@ _.extend(Backbone.Flash, {
   initialize : function(config) {
     this.config = _.extend({ 
       el : 'body',
-      template: '',
+      template: _.template('<div class="alert alert-<%= type %> alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><%= message %></div>'),
       stayDuration: 15000
     }, config);
     Backbone.on('flash', this.handleFlash, this);
