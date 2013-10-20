@@ -4,7 +4,7 @@
   "keywords": ["backbone", "flash", "notification"], 
   "authors": [{ "name": "Brian Mancini", "email": "bmancini@gmail.com" }],
   "dependencies": {
-    "backbone": ">1.0.0"
+    "backbone": "1.*.0"
   },
   "version": "0.1.0"    
 }
