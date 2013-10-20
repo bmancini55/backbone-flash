@@ -2,7 +2,7 @@
   "name": "backbone-flash",
   "description": "Adds flash notification features to backbone",
   "keywords": ["backbone", "flash", "notification"], 
-  "authors": [{ name: "Brian Mancini", email: "bmancini@gmail.com" }],
+  "authors": [{ "name": "Brian Mancini", "email": "bmancini@gmail.com" }],
   "dependencies": {
     "backbone": ">1.0.0"
   },
